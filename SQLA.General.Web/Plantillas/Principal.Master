@@ -22,7 +22,15 @@
             <nav>
                 <asp:Menu ID="mnuPrincipal" runat="server" DataSourceID="smdsPrincipal" Orientation="Horizontal" StaticDisplayLevels="2"></asp:Menu>
                 <asp:SiteMapDataSource ID="smdsPrincipal" runat="server" />
-            </nav>
+            </nav
+            <section>
+                <span>
+                    Titulos de la página
+                </span>
+                <div>
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+                </div>
+            </section>
             <div>
                 <asp:ContentPlaceHolder ID="cphCuerpo" runat="server">
                 </asp:ContentPlaceHolder>

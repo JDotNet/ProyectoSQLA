@@ -67,6 +67,15 @@ namespace SQLA.General.Web.Plantillas {
         protected global::System.Web.UI.WebControls.SiteMapDataSource smdsPrincipal;
         
         /// <summary>
+        /// SiteMapPath1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SiteMapPath SiteMapPath1;
+        
+        /// <summary>
         /// cphCuerpo control.
         /// </summary>
         /// <remarks>
