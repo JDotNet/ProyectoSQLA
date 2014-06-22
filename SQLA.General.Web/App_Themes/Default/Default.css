@@ -4,6 +4,7 @@
     color: black;
 }
 
-#contenedorPrincipal {
-
+#contenedorprincipal {
+    width: 1024px;
+    border: 1px solid red;
 }
