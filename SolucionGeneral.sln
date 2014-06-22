@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaPresentacion", "CapaPresentacion", "{C4F8B251-8DF9-4CEA-8FA4-3199C74F1362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaDatos", "CapaDatos", "{17812BE4-647C-475C-9A97-E759B38743F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaEntidades", "CapaEntidades", "{875766D0-A838-400F-8021-50793FBD4E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaNegocio", "CapaNegocio", "{6B88B18A-59E4-47BD-BB4A-AF949354F724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaDespliegue", "CapaDespliegue", "{600CA78D-CAB1-4C36-9E91-FE8A273E4306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaUtiles", "CapaUtiles", "{5D454BB7-00D5-4332-B4BB-0448D1C8D166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLA.General.Web", "SQLA.General.Web\SQLA.General.Web.csproj", "{629CF497-20A9-4E0C-AF52-F1C7EF904488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{629CF497-20A9-4E0C-AF52-F1C7EF904488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629CF497-20A9-4E0C-AF52-F1C7EF904488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629CF497-20A9-4E0C-AF52-F1C7EF904488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629CF497-20A9-4E0C-AF52-F1C7EF904488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{629CF497-20A9-4E0C-AF52-F1C7EF904488} = {C4F8B251-8DF9-4CEA-8FA4-3199C74F1362}
+	EndGlobalSection
+EndGlobal
