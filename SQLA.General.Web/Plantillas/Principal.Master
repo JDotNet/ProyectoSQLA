@@ -18,11 +18,14 @@
                 <figure>
                     <asp:Image ID="imgAvatarUsuario" runat="server" />
                 </figure>
+                <p>
+                    Casa Blanca
+                </p>
             </header>
             <nav>
                 <asp:Menu ID="mnuPrincipal" runat="server" DataSourceID="smdsPrincipal" Orientation="Horizontal" StaticDisplayLevels="2"></asp:Menu>
                 <asp:SiteMapDataSource ID="smdsPrincipal" runat="server" />
-            </nav
+            </nav>
             <section>
                 <span>
                     Titulos de la página
