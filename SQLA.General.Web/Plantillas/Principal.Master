@@ -11,6 +11,18 @@
 <body>
     <div id="contenedorprincipal">
         <form id="form1" runat="server">
+            <header>
+                <figure id="figLogoColegio">
+                    <asp:Image ID="imgLogoColegio" runat="server" />
+                </figure>
+                <figure>
+                    <asp:Image ID="imgAvatarUsuario" runat="server" />
+                </figure>
+            </header>
+            <nav>
+                <asp:Menu ID="mnuPrincipal" runat="server" DataSourceID="smdsPrincipal" Orientation="Horizontal" StaticDisplayLevels="2"></asp:Menu>
+                <asp:SiteMapDataSource ID="smdsPrincipal" runat="server" />
+            </nav>
             <div>
                 <asp:ContentPlaceHolder ID="cphCuerpo" runat="server">
                 </asp:ContentPlaceHolder>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Inicio" description="Pagina principal">
+      <siteMapNode url="" title="Administración"  description="Paginas de mantenimiento">
+        <siteMapNode url="~/Seguridad/InicioSesion.aspx?ID=1" title="Reportes"  description="Reportes de contenido común" />
+      </siteMapNode>
+      <siteMapNode url="" title="Reportes"  description="Reportes de contenido común">
+        <siteMapNode url="~/Seguridad/InicioSesion.aspx?ID=2" title="Reportes"  description="Reportes de contenido común" />
+      </siteMapNode>
+      <siteMapNode url="" title="Utiles"  description="Contenido útil">
+        <siteMapNode url="~/Seguridad/InicioSesion.aspx?ID=3" title="Reportes" description="Reportes de contenido común" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>
