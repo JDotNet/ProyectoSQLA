@@ -19,7 +19,7 @@
                     <asp:Image ID="imgAvatarUsuario" runat="server" />
                 </figure>
                 <p>
-                    Casa Blanca
+                    Hola Mundo Casa Blanca
                 </p>
             </header>
             <nav>
